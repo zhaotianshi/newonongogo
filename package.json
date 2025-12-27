@@ -1,0 +1,18 @@
+{
+  "name": "argonewx",
+  "version": "1.0.0",
+  "description": "Nodejs-Argo with obfuscation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "obfuscate": "node scripts/obfuscate.js",
+    "build": "npm run obfuscate"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "axios": "^1.7.7"
+  },
+  "devDependencies": {
+    "javascript-obfuscator": "^4.1.1"
+  }
+}
